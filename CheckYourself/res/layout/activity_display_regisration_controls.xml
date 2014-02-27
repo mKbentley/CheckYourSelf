@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="200dp"
+    android:orientation="vertical"
+    tools:context=".DisplayLoginControlsActivity" >
+    
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set up a new account." />
+	
+	<EditText
+        android:id="@+id/edit_firstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name" />
+	
+	<EditText
+        android:id="@+id/edit_lastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name" />
+	
+	<EditText
+        android:id="@+id/edit_desiredusername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/desired_username" />
+	
+	<EditText
+        android:id="@+id/edit_desiredpassword"
+        android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/desired_password" />
+
+	<Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+        android:text="@string/button_registration"
+        android:onClick="sendNewUser" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check Yourself</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_register">Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_login_controls">Login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_id">User ID: </string>
+    <string name="password">Password: </string>
+    <string name="edit_userID">User ID</string>
+    <string name="edit_password">Password</string>
+    <string name="button_enter">Enter</string>
+    <string name="button_login">Log in</string>
+    <string name="welcome">Welcome to Check Yourself!</string>
+    <string name="welcome_prompt">Please select one of the following options to get started."</string>
+    <string name="title_activity_display_login_successful">Login Successful</string>
+    <string name="dialog_login_unsuccessful">Your username or password were incorrect. Please try again.</string>
+    <string name="okay">Okay</string>
+    <string name="title_activity_display_login_unsuccessful">Login Unsuccessfu</string>
+    <string name="title_activity_display_regisration_controls">Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="desired_username">Desired Username</string>
+    <string name="desired_password">Desired Password</string>
+    <string name="button_registration">Register</string>
+    <string name="title_activity_account_main">AccountMainActivity</string>
+    <string name="title_activity_display_account_registration_controls">DisplayAccountRegistrationControls</string>
+    <string name="createnew">Create a New Account</string>
+    <string name="accountName">Name</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="socialsecurtiy ">Social Securtiy Number</string>
+    <string name="driversid">Drivers Licence Number</string>
+    <string name="minamount">Miniumn Amount </string>
+    <string name="current_account">View Current Account</string>
+    <string name="uchecks">Unlimited Checks</string>
+    <string name="ddeposit">Direct Deposit</string>
+    <string name="accounttype">Account Type</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_view_accounts">ViewAccountsActivity</string>
+    <string name="namesender">Sorry no current accounts</string>
+
+</resources>

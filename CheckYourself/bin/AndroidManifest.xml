@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.checkyourself"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.checkyourself.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.DisplayLoginControlsActivity"
+            android:label="@string/title_activity_display_login_controls"
+            android:parentActivityName="com.example.checkyourself.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.checkyourself.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.DisplayLoginSuccessful"
+            android:label="@string/title_activity_display_login_successful" >
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.DisplayLoginUnsuccessful"
+            android:label="@string/title_activity_display_login_unsuccessful" >
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.DisplayRegisrationControlsActivity"
+            android:label="@string/title_activity_display_regisration_controls"
+            android:parentActivityName="com.example.checkyourself.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.checkyourself.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.AccountMainActivity"
+            android:label="@string/title_activity_account_main" >
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.DisplayAccountRegistrationControls"
+            android:label="@string/title_activity_display_account_registration_controls" >
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name="com.example.checkyourself.ViewAccountsActivity"
+            android:label="@string/title_activity_view_accounts" >
+        </activity>
+    </application>
+
+</manifest>

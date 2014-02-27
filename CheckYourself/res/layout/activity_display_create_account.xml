@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<EditText
+        android:id="@+id/account_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accountName" />
+
+<EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailaddress" />
+
+<EditText
+        android:id="@+id/social_securtiy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/socialsecurtiy " />
+<EditText
+        android:id="@+id/driverID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/driversid" />
+
+<EditText
+        android:id="@+id/Minammount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/minamount" />
+
+<EditText
+        android:id="@+id/typeaccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/accounttype" />
+<EditText
+        android:id="@+id/checks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/uchecks" />
+
+<EditText
+        android:id="@+id/direct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ddeposit" />
+
+ <Button 
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/createnew" 
+        android:onClick="sendNewAccount"/>
+
+</LinearLayout>
